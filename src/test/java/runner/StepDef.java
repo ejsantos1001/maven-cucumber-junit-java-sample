@@ -1,6 +1,7 @@
 package runner;
 
 import cucumber.api.java8.En;
+import cucumber.api.java8.StepdefBody;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.junit.Assert;
@@ -24,13 +25,17 @@ public class StepDef implements En {
 
                 });
 
-                Given("Login", ()-> {
-
-                    driver = new ChromeDriver();
-                    driver.get("https://www.google.com");
 
 
-                });
+
+            StepdefBody.A0 login_steps = ()-> {
+                driver = new ChromeDriver();
+                driver.get("https://www.google.com");
+            };
+            Given("Login",login_steps);
+
+
+
 
         }
 

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runner.RunCukeTestIT
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.916 s - in runner.RunCukeTestIT
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.954 s - in runner.RunCukeTestIT
